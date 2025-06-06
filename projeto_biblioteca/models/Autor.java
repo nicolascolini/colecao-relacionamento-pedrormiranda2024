@@ -1,4 +1,4 @@
-package projeto_biblioteca.models;
+package models;
 
 public class Autor {
     private String nome;

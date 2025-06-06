@@ -1,4 +1,4 @@
-package projeto_biblioteca.models;
+package models;
 
 public class LivroFisico extends Livro {
     private Integer numeroDePaginas;

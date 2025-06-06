@@ -1,4 +1,4 @@
-package projeto_biblioteca.models;
+package models;
 
 public class Livro {
     protected String titulo;
@@ -29,8 +29,8 @@ public class Livro {
     }
 
     public String exibirDetalhes() {
-        return "Livro [titulo=" + titulo + ", anoPublicacao=" + anoPublicacao + ", nome do autor=" + autor.getNome() 
-        + ", nacionalidade do autor=" + autor.getNacionalidade() + "]";
+        return "Livro: titulo=" + titulo + ", anoPublicacao=" + anoPublicacao + ", nome do autor=" + autor.getNome() 
+        + ", nacionalidade do autor=" + autor.getNacionalidade() + ",";
     }
 
     

@@ -1,4 +1,4 @@
-package projeto_biblioteca.models;
+package models;
 
 public class LivroDigital extends Livro{
     private Double tamanhoArquivo;
